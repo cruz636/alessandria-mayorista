@@ -186,9 +186,6 @@ export default {
       this.filtro_descuento = false;
     },
     async load_products() {
-      var baseUrl = window.baseUrl;
-      console.log(baseUrl);
-      console.log(publicPath);
       try {
         let category = this.$route.params.category;
         let response;
